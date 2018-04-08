@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require chinahub/yii2-shortlink "*"
+composer require chinahub/yii2-shortlink "1.1.*"
 ```
 
 or add
 
 ```
-"chinahub/yii2-shortlink": "*"
+"chinahub/yii2-shortlink": "1.1.*"
 ```
 
 to the require section of your `composer.json` file.
