@@ -39,7 +39,7 @@ Once the extension is installed, simply config it in you main.php like this  :
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply call it in your browser by  :
 
 ```php
 http://i-web.com/api
