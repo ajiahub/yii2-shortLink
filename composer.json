@@ -1,0 +1,21 @@
+{
+    "name": "chinahub/yii2-shortlink",
+    "description": "基于yii2框架的短链接拓展",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","shortLink"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ligang",
+            "email": "ligang@chexiu.cn"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "chinahub\\shortlink\\": ""
+        }
+    }
+}
