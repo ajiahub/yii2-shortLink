@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist chinahub/yii2-shortlink "*"
+composer require chinahub/yii2-shortlink "*"
 ```
 
 or add
@@ -22,10 +22,25 @@ or add
 to the require section of your `composer.json` file.
 
 
+Configuration
+-----
+
+Once the extension is installed, simply config it in you main.php like this  :
+
+```php
+'controllerMap' => [
+	'api' => [
+		'class' => 'chinahub\shortlink\ApiController'
+	],
+]
+```
+
+
 Usage
 -----
 
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \chinahub\shortlink\AutoloadExample::widget(); ?>```
+http://i-web.com/api
+```
