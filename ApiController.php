@@ -4,6 +4,7 @@ namespace chinahub\shortlink;
 
 use Yii;
 use yii\web\Controller;
+use yii\helpers\ArrayHelper;
 use chinahub\shortlink\helpers\NumberHelper;
 
 /**
