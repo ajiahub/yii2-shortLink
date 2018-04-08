@@ -1,5 +1,4 @@
 <?php
-
 namespace chinahub\shortlink;
 
 use Yii;
